@@ -20,7 +20,8 @@ html: true
 ---
 
 # 2. Varnish Structure Diagram
-```mermaid
+
+<div class="mermaid">
 graph TD
     A[Varnish System] --> B[Colloidal Suspension]
     B --> C[Resin Droplets]
@@ -29,7 +30,7 @@ graph TD
     E -->|Too Small| F[High Compatibility: Won't Dry]
     E -->|Optimal| G[Homogeneous: Dries Well]
     E -->|Too Large| H[Incompatible: Surface Skinning]
-```
+</div>
 
 
 ---
@@ -66,7 +67,8 @@ graph TD
 ---
 
 # 7. The Solvent Triangle
-```mermaid
+
+<div class="mermaid">
 graph LR
     A[Solvent Triangle] --> B[Unpolar Side: Petrol]
     A --> C[Polar Side: Alcohol]
@@ -74,7 +76,7 @@ graph LR
     D --> E{Strategy}
     E -->|Sticky Varnish| F[Use Petrol to reduce compatibility]
     E -->|Surface Skinning| G[Use Spike Oil to increase solubility]
-```
+</div>
 
 
 ---
