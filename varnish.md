@@ -4,6 +4,7 @@ theme: default
 paginate: true
 header: 'Violin Varnish: Chemistry, Colophony, and Color'
 footer: 'Expert Lecture Notes'
+html: true
 ---
 
 # Violin Varnish: Chemistry, Colophony, and Color
@@ -139,3 +140,8 @@ To achieve "vibration" or "electricity" in color, combine two types of spectra:
 *   **Monitoring:** Use **UV fluorescence** to judge the oxidation state of resin (target: yellow/orange).
 *   **Resin Ratio:** Use **Long Oil** (>50% oil) for resistant new instruments; **Short Oil** (>60% resin) for chipping and antiquing effects.
 *   **Analogy:** Think of varnish as **balloons (resin) floating in water (oil)**. If they are too small and tight, the "water" can't breathe or dry.
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
