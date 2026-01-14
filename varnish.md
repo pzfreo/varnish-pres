@@ -16,6 +16,23 @@ html: true
 .column {
   padding: 0.5rem;
 }
+
+/* Disable fragment animations - show all content at once */
+section * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Override Marp's incremental list behavior - show all bullets immediately */
+[data-bespoke-marp-fragment="inactive"] {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+li {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
 </style>
 
 # Varnish Making with Colophony
@@ -25,7 +42,7 @@ html: true
 
 # Pierre Flavetta 
 ![bg left](pictures/pierre.jpg)
-* A Genius of Varnish, Antiquing, 
+* A Genius of Varnish, Antiquing, and more
 * BVMA Course December
 
 ---
@@ -270,4 +287,50 @@ To achieve "vibration" or "electricity" in color, combine two types of spectra:
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
+</script>
+
+<script>
+  // Disable incremental list reveals - show all content immediately and skip fragment navigation
+  document.addEventListener('DOMContentLoaded', function() {
+    // Make all fragments active immediately
+    const fragments = document.querySelectorAll('[data-bespoke-marp-fragment]');
+    fragments.forEach(el => {
+      el.removeAttribute('data-bespoke-marp-fragment');
+      el.style.visibility = 'visible';
+      el.style.opacity = '1';
+    });
+
+    // Ensure all list items are visible
+    const listItems = document.querySelectorAll('li');
+    listItems.forEach(el => {
+      el.style.visibility = 'visible';
+      el.style.opacity = '1';
+    });
+
+    // Override Bespoke navigation to skip fragments entirely
+    // Intercept keyboard navigation
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ' || e.key === 'PageDown') {
+        e.preventDefault();
+        e.stopPropagation();
+        // Navigate to next slide (not fragment)
+        const currentSlide = parseInt(window.location.hash.slice(1)) || 1;
+        window.location.hash = currentSlide + 1;
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') {
+        e.preventDefault();
+        e.stopPropagation();
+        // Navigate to previous slide (not fragment)
+        const currentSlide = parseInt(window.location.hash.slice(1)) || 1;
+        if (currentSlide > 1) {
+          window.location.hash = currentSlide - 1;
+        }
+      }
+    }, true); // Use capture phase to intercept before Bespoke
+
+    // Remove fragment parameter from URL when navigating
+    if (window.location.search.includes('f=')) {
+      const slideNum = window.location.hash.slice(1) || '1';
+      window.history.replaceState({}, '', window.location.pathname + '#' + slideNum);
+    }
+  });
 </script>
