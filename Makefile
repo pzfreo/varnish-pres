@@ -19,18 +19,24 @@ $(OUTPUT_DIR):
 # Build HTML
 .PHONY: html
 html: $(OUTPUT_DIR)
+	cp -r pictures $(OUTPUT_DIR)/
 	$(MARP) $(SOURCE) -o $(HTML_OUTPUT)
 	@echo "HTML presentation built: $(HTML_OUTPUT)"
 
 # Build PDF
 .PHONY: pdf
 pdf: $(OUTPUT_DIR)
+	cp -r pictures $(OUTPUT_DIR)/
 	$(MARP) $(SOURCE) -o $(PDF_OUTPUT) --allow-local-files
 	@echo "PDF presentation built: $(PDF_OUTPUT)"
 
 # Build both HTML and PDF
 .PHONY: build
-build: html pdf
+build: $(OUTPUT_DIR)
+	cp -r pictures $(OUTPUT_DIR)/
+	$(MARP) $(SOURCE) -o $(HTML_OUTPUT)
+	$(MARP) $(SOURCE) -o $(PDF_OUTPUT) --allow-local-files
+	@echo "HTML and PDF presentations built"
 
 # Watch mode for development
 .PHONY: watch

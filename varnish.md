@@ -2,13 +2,137 @@
 marp: true
 theme: default
 paginate: true
-header: 'Violin Varnish: Chemistry, Colophony, and Color'
-footer: 'Expert Lecture Notes'
+header: 'Varnish Making with Colophony'
+footer: 'Paul Fremantle, West Dean, Feb 2026'
 html: true
 ---
 
-# Violin Varnish: Chemistry, Colophony, and Color
-### The Physics and Art of Oily Varnishes
+<style>
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.column {
+  padding: 0.5rem;
+}
+</style>
+
+# Varnish Making with Colophony
+### A quick overview of 7 days with Pierre Flavetta
+### Paul Fremantle
+---
+
+# Pierre Flavetta 
+![bg left](pictures/pierre.jpg)
+* A Genius of Varnish, Antiquing, 
+* BVMA Course December
+
+---
+
+# Why Colophony Varnish?
+![bg](pictures/colophony.webp)
+
+* Colophony is a resin - the result of drying pine sap
+* Before Colophony, simply drying oils
+* Historically never formed a very hard surface 
+* For Strad and Amati, colophony varnish was available and cheaper than other resins 
+* Used extensively until the late 1700s
+
+---
+
+![bg right](pictures/cooking.jpg)
+# Why do we use Colophony?
+
+* It is hard to get right 
+  * (That is why they gave up)
+* Difficult and hazardous to process 
+
+... *but*
+
+* Historically Authentic
+  * Great for antiquing
+* Beautiful when done right
+
+
+---
+ 
+
+![bg](pictures/basic-process.png)
+
+---
+
+![bg opacity:.15 grayscale](pictures/basic-process.png)
+# The basic process
+
+* Cook a drying oil (e.g linseed) for a few hours 
+* Cook colophony resin for some amount of time (will be explained later)
+* Mix the two together in a specific proportion with heat to create a varnish
+* Potentially use a solvent to thin the varnish
+
+---
+
+![bg opacity](pictures/bubbles.png)
+# Optional extras
+
+* **Bubble air** through the oil while cooking or instead of cooking
+* Add **metal salts** to the oil (dryers)
+* Cook colophony with a **lid** on
+* Add metal salts to the colophony (to create *rosinates*)
+* Add colour compounds and metal salts to the **oil** *or* **colophony** *or* **varnish**
+
+
+---
+
+![bg left height:90%](pictures/polymerisation.png)
+# Why do we cook oil?
+
+* We need the oil to polymerise (aka drying)
+* Start the polymerisation 
+* Too much cooking and we have sludge = fully polymerised
+
+---
+
+
+![bg right width:110%](pictures/solubility.png)
+
+# Resin should **not** dissolve in oil
+* When the colophony dissolves the varnish never dries!
+* Varnish is a *colloidal* mixture with microscopic droplets of resin mixed into the oil
+
+---
+
+
+---
+
+# The Balancing Act: Common Failures and Their Causes
+
+<div class="columns">
+<div class="column">
+
+## FAILURE OF COMPATIBILITY
+### (Too Soluble)
+
+**Cause:** The resin is *too* compatible with the oil. The droplets are so small that the resin molecules completely envelop the oil molecules.
+
+**Mechanism:** This "armor" prevents oxygen from reaching the oil, blocking polymerization.
+
+The varnish **stays sticky forever.**
+
+</div>
+<div class="column">
+
+## FAILURE OF HOMOGENEITY
+### (Too Insoluble)
+
+**Cause:** The resin is not compatible enough. The large droplets separate from the oil after application.
+
+**Mechanism:** The more resinous part migrates to the surface, forming a skin that traps uncured oil and solvents underneath.
+
+The surface feels dry, but the film **remains soft and marks easily.**
+
+</div>
+</div>
 
 ---
 

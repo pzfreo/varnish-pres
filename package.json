@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Marp presentation on Violin Varnish: Chemistry, Colophony, and Color",
   "scripts": {
+    "prebuild": "mkdir -p output && cp -r pictures output/",
     "build": "marp varnish.md -o output/index.html",
+    "prebuild:pdf": "mkdir -p output && cp -r pictures output/",
     "build:pdf": "marp varnish.md -o output/varnish.pdf --allow-local-files",
-    "build:all": "npm run build && npm run build:pdf",
+    "build:all": "mkdir -p output && cp -r pictures output/ && npm run build && npm run build:pdf",
     "watch": "marp -w varnish.md -o output/index.html",
     "preview": "marp -s varnish.md"
   },
