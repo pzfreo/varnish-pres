@@ -280,6 +280,17 @@ section {
 
 ---
 
+# Solvents in practice
+
+![bg left](pictures/beaker.png)
+
+- Start with **turps** or white spirit
+- If your resin doesn't easily dissolve, add a small amount of **spike oil**
+- Methoxypropanol can be effective but **dangerous**
+  - Change colours or drying because *changes colloid*
+
+---
+
 # Summary / Recap
 
 ![bg opacity](pictures/amatiback.jpg)
