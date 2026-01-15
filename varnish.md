@@ -237,6 +237,16 @@ section {
 - Spike Oil (Lavender oil from spikes) is very effective
 - Methoxypropanol is super-effective - go carefully
 
---- 
+---
 
 # Summary / Recap
+
+- **Colophony varnish** was the authentic choice for Strad and Amati
+- The challenge: colophony is **too soluble** - must be cooked to reduce solubility
+- **Cook oil** (1-3 hrs, 230-250°C) to start polymerisation
+- **Cook colophony** carefully - check under **UV light** (orange = great)
+- **Mix** at 220-240°C: start with 50/50 ratio
+  - More oil = flexible; more colophony = hard (good for antiquing)
+- **Solvents**: turpentine default, use Teas diagram to find alternatives
+
+### The goldilocks principle: not too soluble, not too insoluble!
