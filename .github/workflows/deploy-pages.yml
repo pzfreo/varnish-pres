@@ -31,14 +31,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Chrome for PDF generation
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
       - name: Create output directory
         run: mkdir -p output
 
       - name: Copy images to output
         run: cp -r pictures output/
 
-      - name: Build presentation
-        run: npm run build
+      - name: Build HTML presentation
+        run: npx marp --no-stdin varnish.md -o output/index.html
+
+      - name: Build PDF presentation
+        run: npx marp --no-stdin varnish.md -o output/varnish.pdf --allow-local-files
+        env:
+          CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
