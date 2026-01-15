@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: 'Varnish Making with Colophony'
-footer: 'Paul Fremantle, West Dean, Feb 2026'
+footer: "Based on Pierre Flavetta's course"
 html: true
 ---
 
@@ -11,10 +11,13 @@ html: true
 # Historical varnish making with colophony
 ### A quick overview of Pierre Flavetta's BVMA course
 
-Paul Fremantle
+
+<br/><br/>
+
+
 [paul@fremantle.org](mailto:paul@fremantle.org)
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 <style scoped>
 .a {
