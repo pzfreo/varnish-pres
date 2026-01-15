@@ -7,12 +7,28 @@ footer: 'Paul Fremantle, West Dean, Feb 2026'
 html: true
 ---
 
-![bg left](pictures/Stradivari-violin.png)
+![bg left](pictures/amati.jpg)
 # Historical varnish making with colophony
 ### A quick overview of Pierre Flavetta's BVMA course
 
 Paul Fremantle
 [paul@fremantle.org](mailto:paul@fremantle.org)
+
+<br/><br/><br/><br/>
+
+<style scoped>
+.a {
+  font-size: 12pt;
+}
+</style>
+
+
+
+<div class="a">
+<a href=https://www.metmuseum.org/art/collection/search/503517">Amati ex-"Kurtz" at the Metropolitan</a>
+</div>
+
+
 
 ---
 
@@ -35,6 +51,8 @@ Paul Fremantle
 ---
 
 # Historical context
+
+![bg opacity](pictures/amatiback.jpg)
 -   **Early Era (Pre-1680):** Makers like Amati used very **light, clear colophony** bases.
 -   **Transition (1680–1730):** Stradivari introduced an **orange-based system** combining dark colophony, iron oxides (hematite), and red lakes.
 -   **Late Era (Post-1730):** Makers shifted almost entirely to **dark colophony bases**, likely because lighter bases were unreliable and prone to drying failure.
@@ -43,10 +61,10 @@ Paul Fremantle
 ---
 
 # Resins
-
+![bg opacity](pictures/resin.jpg)
 <style scoped>
 table {
-  font-size: 16pt;
+  font-size: 18pt;
 }
 </style>
 | Resin | The Challenge | Untreated Result | Goal |
@@ -57,7 +75,7 @@ table {
 | **Mastic** (Pistacia Tree) | Behaves like colophony (**too soluble**). | (Similar to colophony). | Can be used as a **"siccative"** to add solubility back into a varnish that has been made *too insoluble*. |
 ---
 
-![bg right](pictures/cooking.jpg)
+![bg right](pictures/cooking-background.png)
 # Why do we use colophony?
 
 - It is hard to get right 
@@ -144,20 +162,33 @@ If it is too soluble it prevents the oil polymerising
 ![](pictures/justright.jpg)
 
 ---
+![bg left](pictures/cooking.jpg)
+<style scoped>
+section {
+  font-size: 16pt;
+}
+</style>
 
 # Cooking colophony
--   **Under 240°C:** Activates **oxidation**, making the resin darker and more insoluble.
+-   **Under 240°C:** Activates **oxidation**, making the resin darker and more insoluble the longer you cook it
 -   **Above 240°C:** The resin begins to **decompose** (crack), creating "resin oils" that can cause permanent stickiness.
--   **Open vs. Closed Pan:** Cooking in an open pan allows acidic fumes and resin oils to escape, while a lid keeps them inside, increasing acidity. 
-- **Closed Pan** - actually kitchen foil with a hole to allow some escape 
-
-  - Increases action and makes **more insoluble**
-  - You may need to heat for 30 mins without a lid and blowing hot air to remove the resin oils
 
 ---
 
+# Open pan vs closed pan
+![](pictures/pan.png)
+
+---
 ## The secret to cooking colophony - check under UV light
-![width:800](pictures/uv-colo.jpg)
+
+<style scoped>
+section {
+  text-align: center;
+}
+</style>
+
+![width:750](pictures/uv-colo.jpg)
+
 
 ---
 
@@ -179,7 +210,7 @@ section {
 </style>
 
 
-![bg left ](pictures/boxc.png)
+![bg left width:70%](pictures/boxc.png)
 
 ## Mixing the oil and cooked colophony
   - Add the oil to melted colophony
@@ -187,23 +218,29 @@ section {
     - Stay below 270°C!
   - 60% oil / 40% colophony 
     - "long oil" / fat
-    - liquid, resistant to chipping
+    - liquid, **resistant** to chipping
   - 60% colophony / 40% oil
     - ("short oil" / lean)
-    - Chippy and hard - great for antiquing
-  - 50% / 50% - a good starting point
-
+    - Chippy and hard - **great for antiquing**
+  - 50% / 50% - **a good starting point**
 
 ---
 
 # The solvent triangle
 ![bg left](pictures/fullsolvent.png)
 
-Source: https://uk.pinterest.com/pin/449445237791288763/
+
 
 ## Teas Diagram
 - A way of representing solvents that is useful
 - I don't understand the chemistry but will explain the approach
+
+<style scoped>
+a {
+  font-size: 15pt;
+}
+</style>
+https://uk.pinterest.com/pin/449445237791288763/
 
 ---
 
@@ -245,6 +282,7 @@ section {
 
 # Summary / Recap
 
+![bg opacity](pictures/amatiback.jpg)
 - **Colophony varnish** was the authentic choice for Strad and Amati
 - The challenge: colophony is **too soluble** - must be cooked to reduce solubility
 - **Cook oil** (1-3 hrs, 230-250°C) to start polymerisation
@@ -254,3 +292,11 @@ section {
 - **Solvents**: turpentine default, use Teas diagram to find alternatives
 
 ### The goldilocks principle: not too soluble, not too insoluble!
+
+---
+
+# Thanks
+
+More info 
+- https://www.bvma.org.uk/bvma-courses
+- https://www.bvma.org.uk/events-1/secrets-of-the-ancient-art-of-oil-varnish-and-colouring
