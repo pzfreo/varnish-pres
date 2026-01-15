@@ -89,7 +89,7 @@ table {
 
 ---
 
-![bg opacity](pictures/bubbles.png)
+![bg opacity:.5](pictures/bubbles.png)
 # Optional extras
 
 - **Bubble air** through the oil while cooking or instead of cooking
@@ -137,7 +137,7 @@ If it is too soluble it prevents the oil polymerising
 
 # The challenge of colophony = the goldilocks cook
 
-![auto](pictures/justright.jpg)
+![](pictures/justright.jpg)
 
 ---
 
