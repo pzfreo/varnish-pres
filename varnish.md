@@ -97,7 +97,7 @@ table {
 - Cook colophony with a **lid** on
 - Add metal salts to the colophony (to create *rosinates*)
 - Add colour compounds and metal salts to the **oil** *or* **colophony** *or* **varnish**
-
+  - **For another lecture!** (*too much for today*)
 
 ---
 
@@ -193,21 +193,50 @@ section {
 ---
 
 # The solvent triangle
+![bg left](pictures/fullsolvent.png)
 
+Source: https://uk.pinterest.com/pin/449445237791288763/
+
+## Teas Diagram
+- A way of representing solvents that is useful
+- I don't understand the chemistry but will explain the approach
+
+---
+
+# The solvent triangle
+
+
+![height:500px](pictures/solventtriange.jpg)
 
 
 ---
 
-# Solvent strategy for homogeneity
--   **Turpentine:** The standard base solvent, relatively unpolar.
--   **Spike Lavender Oil:** A polar solvent that dissolves highly insoluble or overcooked resins to ensure **homogeneity**.
--   **Petrol (White Spirit/D70):** Used for **slow evaporation** (large instruments) and to encourage larger droplet formation in undercooked resins.
--   **Risk:** If the solvent does not dissolve the mixture well enough, the resin migrates to the surface, creating a **skin** that traps soft varnish inside.
+# Understanding colophony solubility
+
+![height:500px](pictures/solventspace.jpg)
 
 ---
 
+# Mixing solvents - just find the right spot on the line
 
+![height:500px](pictures/solubilityline.jpg)
 
 ---
 
-# Practical workflow & summary
+<style scoped>
+section {
+  font-size: 18pt;
+}
+</style>
+# Pierre's approach to solvents
+
+![bg left](pictures/annotatedteas.png)
+- Turpentine as a default
+- Although white spirit evaporates more quickly in isolation, the better the solvent the slower the evaporation
+- Shellsol D70 is a heavier petrol you can also use
+- Spike Oil (Lavender oil from spikes) is very effective
+- Methoxypropanol is super-effective - go carefully
+
+--- 
+
+# Summary / Recap
