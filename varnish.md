@@ -7,7 +7,7 @@ footer: 'Paul Fremantle, West Dean, Feb 2026'
 html: true
 ---
 
-# Varnish Making with Colophony
+# Varnish making with colophony
 ### A quick overview of 7 days with Pierre Flavetta
 ### Paul Fremantle
 ---
@@ -19,18 +19,18 @@ html: true
 
 ---
 
-# Why Colophony Varnish?
+# Why colophony varnish?
 ![bg](pictures/colophony.webp)
 
 - Colophony is a resin - the result of drying pine sap
-- Before Colophony, simply drying oils
+- Before colophony, makers used simply drying oils
   - Historically never formed a very hard surface 
 - For Strad and Amati, colophony varnish was available and cheaper than other resins 
   - Used extensively until the late 1700s
 
 ---
 
-# Historical Context
+# Historical context
 -   **Early Era (Pre-1680):** Makers like Amati used very **light, clear colophony** bases.
 -   **Transition (1680–1730):** Stradivari introduced an **orange-based system** combining dark colophony, iron oxides (hematite), and red lakes.
 -   **Late Era (Post-1730):** Makers shifted almost entirely to **dark colophony bases**, likely because lighter bases were unreliable and prone to drying failure.
@@ -50,11 +50,11 @@ table {
 | **Colophony** (Pine, Spruce) | Naturally **too soluble** in oil. | Creates a varnish that will stay sticky forever. | Must be cooked correctly (*lots more coming*) |
 | **Amber** (Fossilized Resin) | Naturally **insoluble** in oil. | Will not mix with oil at all. | Must be cooked at high temperatures (pyrogenized) to become soluble. 
 | **Sandarac** (Juniper, Cedar) | Naturally **insoluble** in oil. | Will not mix with oil. | Must be cooked for a specific time/temp (e.g., 3 hours at 270°C) to become soluble. |
-| **Mastic** (Pistacia Tree) | Behaves like Colophony (**too soluble**). | (Similar to Colophony). | Can be used as a **'siccative'** to add solubility back into a varnish that has been made *too insoluble*. |
+| **Mastic** (Pistacia Tree) | Behaves like colophony (**too soluble**). | (Similar to colophony). | Can be used as a **"siccative"** to add solubility back into a varnish that has been made *too insoluble*. |
 ---
 
 ![bg right](pictures/cooking.jpg)
-# Why do we use Colophony?
+# Why do we use colophony?
 
 - It is hard to get right 
   - (That is why they gave up)
@@ -104,11 +104,11 @@ table {
 ![bg left height:90%](pictures/polymerisation.png)
 # Why do we cook oil?
 
-- We need the oil to polymerise (aka drying)
+- We need the oil to **polymerise** (aka drying)
 - Start the polymerisation 
   - Between 1-3 hours
-  - 230C - 250C 
-- Too little oxygen or too much heat (more than 270C)
+  - 230°C - 250°C 
+- Too little oxygen or too much heat (more than 270°C)
   - **Stand oil**
   - Fully polymerised and sludgy
 
@@ -129,19 +129,19 @@ If it is too soluble it prevents the oil polymerising
 - Cooking linseed oil is actually *optional*
   - It won't dry as well but will eventually dry
 - Cooking colophony is **essential**
-  - Colophony is **too soluble**
+  - colophony is **too soluble**
   - Need to reduce the solubility to ensure the colloid is created
   - Adding 7-9% **Lime** (*Calcium Hydroxide*) creates a calcium rosinate which reduces solubility as well
 
 ---
 
-# The Challenge of Colophony = the Goldilocks Cook
+# The challenge of colophony = the goldilocks cook
 
 ![auto](pictures/justright.jpg)
 
 ---
 
-# Cooking Colophony
+# Cooking colophony
 -   **Under 240°C:** Activates **oxidation**, making the resin darker and more insoluble.
 -   **Above 240°C:** The resin begins to **decompose** (crack), creating "resin oils" that can cause permanent stickiness.
 -   **Open vs. Closed Pan:** Cooking in an open pan allows acidic fumes and resin oils to escape, while a lid keeps them inside, increasing acidity. 
@@ -179,10 +179,10 @@ section {
 
 ## Mixing the oil and cooked colophony
   - Add the oil to melted colophony
-    - **220C-240C for 30m - 1hr**
-    - Stay below 270C!
+    - **220°C-240°C for 30m - 1hr**
+    - Stay below 270°C!
   - 60% oil / 40% colophony 
-    - *"long oil" / fat*
+    - "long oil" / fat
     - liquid, resistant to chipping
   - 60% colophony / 40% oil
     - ("short oil" / lean)
@@ -192,13 +192,13 @@ section {
 
 ---
 
-# 7. The Solvent Triangle
+# The solvent triangle
 
 
 
 ---
 
-# 8. Solvent Strategy for Homogeneity
+# Solvent strategy for homogeneity
 -   **Turpentine:** The standard base solvent, relatively unpolar.
 -   **Spike Lavender Oil:** A polar solvent that dissolves highly insoluble or overcooked resins to ensure **homogeneity**.
 -   **Petrol (White Spirit/D70):** Used for **slow evaporation** (large instruments) and to encourage larger droplet formation in undercooked resins.
@@ -210,4 +210,4 @@ section {
 
 ---
 
-# 15. Practical Workflow & Summary
+# Practical workflow & summary
