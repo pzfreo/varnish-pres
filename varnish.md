@@ -7,9 +7,13 @@ footer: 'Paul Fremantle, West Dean, Feb 2026'
 html: true
 ---
 
-# Varnish making with colophony
-### A quick overview of 7 days with Pierre Flavetta
-### Paul Fremantle
+![bg left](pictures/Stradivari-violin.png)
+# Historical varnish making with colophony
+### A quick overview of Pierre Flavetta's BVMA course
+
+Paul Fremantle
+[paul@fremantle.org](mailto:paul@fremantle.org)
+
 ---
 
 # Pierre Flavetta 
