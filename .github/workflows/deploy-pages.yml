@@ -32,10 +32,11 @@ jobs:
         run: npm ci
 
       - name: Install Chrome for PDF generation
-        id: setup-chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: stable
+        run: |
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
 
       - name: Create output directory
         run: mkdir -p output
@@ -49,7 +50,7 @@ jobs:
       - name: Build PDF presentation
         run: npx marp --no-stdin varnish.md -o output/varnish.pdf --allow-local-files
         env:
-          CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+          CHROME_PATH: /usr/bin/google-chrome-stable
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
