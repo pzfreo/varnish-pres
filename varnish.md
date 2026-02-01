@@ -293,6 +293,15 @@ section {
   - Change colours or drying because *changes colloid*
 
 ---
+![bg opacity](pictures/tipoftheiceberg.png)
+# What else did the course cover
+
+- Colour theory
+- Rosinates
+- Adding colours to varnish with Aloe & Alizarin
+- Making and colouring varnish for retouching
+
+---
 
 # Summary / Recap
 
