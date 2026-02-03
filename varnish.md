@@ -136,6 +136,7 @@ table {
 - Too little oxygen or too much heat (more than 270°C)
   - **Stand oil**
   - Fully polymerised and sludgy
+- Above 350°C - Exothermic **(BOOM!)**
 
 
 ---
@@ -228,6 +229,17 @@ section {
   - 50% / 50% - **a good starting point**
 
 ---
+# Lean vs oily varnish
+
+- Oily varnish is polymerised resin and oil
+  - Forms a protective layer via polymerisation.
+- Lean varnish is resin dissolved in solvent
+  - It dries by evaporation rather than polymerisation, there is no change in structure. 
+- Mixed varnish has elements of both and includes solvent. 
+  - The first stage of drying is evaporation of the solvent, the second stage is polymerisation. 
+
+---
+
 
 # The solvent triangle
 ![bg left](pictures/fullsolvent.png)
@@ -296,6 +308,7 @@ section {
 ![bg opacity](pictures/tipoftheiceberg.png)
 # What else did the course cover
 
+- Ground systems (see Pierre's Insta)
 - Colour theory
 - Rosinates
 - Adding colours to varnish with Aloe & Alizarin
